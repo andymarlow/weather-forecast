@@ -19,6 +19,7 @@ export default function Home() {
       .get(url)
       .then((response) => {
         setWeather(response.data);
+        console.log(response.data);
       })
       .catch((err) => {
         console.log(err);
