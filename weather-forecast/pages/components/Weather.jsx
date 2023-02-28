@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Weather = ({ data }) => {
   return (
-    <div className="">
+    <div className="relative">
       <p className="font-bold text-2xl">{data.name}</p>
       <div>
         <Image
@@ -14,7 +14,7 @@ const Weather = ({ data }) => {
       </div>
       <p className="font-bold">{data.weather[0].main}</p>
       <p className="font-bold">
-        Temperature
+        Temperature&nbsp;
         {Math.round(data.main.temp - 273.15)} <span>&#176;</span>C
       </p>
       <p className="font-bold">Wind Speed {Math.round(data.wind.speed)} m/s</p>
