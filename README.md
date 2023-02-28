@@ -2,6 +2,8 @@
 
 Simple website to return weather data from OpenWeatherMap's API when a specific city is entered by the user.
 
+Utilising Next.js and Tailwind.
+
 ## Getting Started
 
 Install dependancies:
